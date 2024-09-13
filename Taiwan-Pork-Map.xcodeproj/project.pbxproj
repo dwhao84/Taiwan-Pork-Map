@@ -14,6 +14,10 @@
 		EB5C65082C93FB34001FD764 /* Taiwan_Pork_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C65072C93FB34001FD764 /* Taiwan_Pork_MapTests.swift */; };
 		EB5C65122C93FB34001FD764 /* Taiwan_Pork_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C65112C93FB34001FD764 /* Taiwan_Pork_MapUITests.swift */; };
 		EB5C65142C93FB34001FD764 /* Taiwan_Pork_MapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C65132C93FB34001FD764 /* Taiwan_Pork_MapUITestsLaunchTests.swift */; };
+		EB5C65212C93FB53001FD764 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C65202C93FB53001FD764 /* Coordinates.swift */; };
+		EB5C65232C93FB73001FD764 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C65222C93FB73001FD764 /* Colors.swift */; };
+		EB5C65252C93FB8A001FD764 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C65242C93FB89001FD764 /* Images.swift */; };
+		EB5C65272C93FBB3001FD764 /* PorkMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C65262C93FBB3001FD764 /* PorkMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		EB5C650D2C93FB34001FD764 /* Taiwan-Pork-MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taiwan-Pork-MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5C65112C93FB34001FD764 /* Taiwan_Pork_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwan_Pork_MapUITests.swift; sourceTree = "<group>"; };
 		EB5C65132C93FB34001FD764 /* Taiwan_Pork_MapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwan_Pork_MapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB5C65202C93FB53001FD764 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		EB5C65222C93FB73001FD764 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		EB5C65242C93FB89001FD764 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		EB5C65262C93FBB3001FD764 /* PorkMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorkMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,8 @@
 			children = (
 				EB5C64F62C93FB33001FD764 /* Taiwan_Pork_MapApp.swift */,
 				EB5C64F82C93FB33001FD764 /* ContentView.swift */,
+				EB5C65262C93FBB3001FD764 /* PorkMapView.swift */,
+				EB5C65282C93FBD9001FD764 /* Materials */,
 				EB5C64FA2C93FB34001FD764 /* Assets.xcassets */,
 				EB5C64FC2C93FB34001FD764 /* Preview Content */,
 			);
@@ -125,6 +135,16 @@
 				EB5C65132C93FB34001FD764 /* Taiwan_Pork_MapUITestsLaunchTests.swift */,
 			);
 			path = "Taiwan-Pork-MapUITests";
+			sourceTree = "<group>";
+		};
+		EB5C65282C93FBD9001FD764 /* Materials */ = {
+			isa = PBXGroup;
+			children = (
+				EB5C65202C93FB53001FD764 /* Coordinates.swift */,
+				EB5C65222C93FB73001FD764 /* Colors.swift */,
+				EB5C65242C93FB89001FD764 /* Images.swift */,
+			);
+			path = Materials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB5C65212C93FB53001FD764 /* Coordinates.swift in Sources */,
+				EB5C65232C93FB73001FD764 /* Colors.swift in Sources */,
+				EB5C65252C93FB8A001FD764 /* Images.swift in Sources */,
 				EB5C64F92C93FB33001FD764 /* ContentView.swift in Sources */,
 				EB5C64F72C93FB33001FD764 /* Taiwan_Pork_MapApp.swift in Sources */,
+				EB5C65272C93FBB3001FD764 /* PorkMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
