@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB5C64F72C93FB33001FD764 /* Taiwan_Pork_MapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C64F62C93FB33001FD764 /* Taiwan_Pork_MapApp.swift */; };
+		EB5C64F92C93FB33001FD764 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C64F82C93FB33001FD764 /* ContentView.swift */; };
+		EB5C64FB2C93FB34001FD764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5C64FA2C93FB34001FD764 /* Assets.xcassets */; };
+		EB5C64FE2C93FB34001FD764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5C64FD2C93FB34001FD764 /* Preview Assets.xcassets */; };
+		EB5C65082C93FB34001FD764 /* Taiwan_Pork_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C65072C93FB34001FD764 /* Taiwan_Pork_MapTests.swift */; };
+		EB5C65122C93FB34001FD764 /* Taiwan_Pork_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C65112C93FB34001FD764 /* Taiwan_Pork_MapUITests.swift */; };
+		EB5C65142C93FB34001FD764 /* Taiwan_Pork_MapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C65132C93FB34001FD764 /* Taiwan_Pork_MapUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB5C65042C93FB34001FD764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB5C64EB2C93FB33001FD764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB5C64F22C93FB33001FD764;
+			remoteInfo = "Taiwan-Pork-Map";
+		};
+		EB5C650E2C93FB34001FD764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB5C64EB2C93FB33001FD764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB5C64F22C93FB33001FD764;
+			remoteInfo = "Taiwan-Pork-Map";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB5C64F32C93FB33001FD764 /* Taiwan-Pork-Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taiwan-Pork-Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5C64F62C93FB33001FD764 /* Taiwan_Pork_MapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwan_Pork_MapApp.swift; sourceTree = "<group>"; };
+		EB5C64F82C93FB33001FD764 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB5C64FA2C93FB34001FD764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB5C64FD2C93FB34001FD764 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB5C65032C93FB34001FD764 /* Taiwan-Pork-MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taiwan-Pork-MapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5C65072C93FB34001FD764 /* Taiwan_Pork_MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwan_Pork_MapTests.swift; sourceTree = "<group>"; };
+		EB5C650D2C93FB34001FD764 /* Taiwan-Pork-MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taiwan-Pork-MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5C65112C93FB34001FD764 /* Taiwan_Pork_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwan_Pork_MapUITests.swift; sourceTree = "<group>"; };
+		EB5C65132C93FB34001FD764 /* Taiwan_Pork_MapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwan_Pork_MapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB5C64F02C93FB33001FD764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5C65002C93FB34001FD764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5C650A2C93FB34001FD764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB5C64EA2C93FB33001FD764 = {
+			isa = PBXGroup;
+			children = (
+				EB5C64F52C93FB33001FD764 /* Taiwan-Pork-Map */,
+				EB5C65062C93FB34001FD764 /* Taiwan-Pork-MapTests */,
+				EB5C65102C93FB34001FD764 /* Taiwan-Pork-MapUITests */,
+				EB5C64F42C93FB33001FD764 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB5C64F42C93FB33001FD764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB5C64F32C93FB33001FD764 /* Taiwan-Pork-Map.app */,
+				EB5C65032C93FB34001FD764 /* Taiwan-Pork-MapTests.xctest */,
+				EB5C650D2C93FB34001FD764 /* Taiwan-Pork-MapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB5C64F52C93FB33001FD764 /* Taiwan-Pork-Map */ = {
+			isa = PBXGroup;
+			children = (
+				EB5C64F62C93FB33001FD764 /* Taiwan_Pork_MapApp.swift */,
+				EB5C64F82C93FB33001FD764 /* ContentView.swift */,
+				EB5C64FA2C93FB34001FD764 /* Assets.xcassets */,
+				EB5C64FC2C93FB34001FD764 /* Preview Content */,
+			);
+			path = "Taiwan-Pork-Map";
+			sourceTree = "<group>";
+		};
+		EB5C64FC2C93FB34001FD764 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB5C64FD2C93FB34001FD764 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB5C65062C93FB34001FD764 /* Taiwan-Pork-MapTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB5C65072C93FB34001FD764 /* Taiwan_Pork_MapTests.swift */,
+			);
+			path = "Taiwan-Pork-MapTests";
+			sourceTree = "<group>";
+		};
+		EB5C65102C93FB34001FD764 /* Taiwan-Pork-MapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB5C65112C93FB34001FD764 /* Taiwan_Pork_MapUITests.swift */,
+				EB5C65132C93FB34001FD764 /* Taiwan_Pork_MapUITestsLaunchTests.swift */,
+			);
+			path = "Taiwan-Pork-MapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB5C64F22C93FB33001FD764 /* Taiwan-Pork-Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB5C65172C93FB34001FD764 /* Build configuration list for PBXNativeTarget "Taiwan-Pork-Map" */;
+			buildPhases = (
+				EB5C64EF2C93FB33001FD764 /* Sources */,
+				EB5C64F02C93FB33001FD764 /* Frameworks */,
+				EB5C64F12C93FB33001FD764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taiwan-Pork-Map";
+			productName = "Taiwan-Pork-Map";
+			productReference = EB5C64F32C93FB33001FD764 /* Taiwan-Pork-Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB5C65022C93FB34001FD764 /* Taiwan-Pork-MapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB5C651A2C93FB34001FD764 /* Build configuration list for PBXNativeTarget "Taiwan-Pork-MapTests" */;
+			buildPhases = (
+				EB5C64FF2C93FB34001FD764 /* Sources */,
+				EB5C65002C93FB34001FD764 /* Frameworks */,
+				EB5C65012C93FB34001FD764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB5C65052C93FB34001FD764 /* PBXTargetDependency */,
+			);
+			name = "Taiwan-Pork-MapTests";
+			productName = "Taiwan-Pork-MapTests";
+			productReference = EB5C65032C93FB34001FD764 /* Taiwan-Pork-MapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB5C650C2C93FB34001FD764 /* Taiwan-Pork-MapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB5C651D2C93FB34001FD764 /* Build configuration list for PBXNativeTarget "Taiwan-Pork-MapUITests" */;
+			buildPhases = (
+				EB5C65092C93FB34001FD764 /* Sources */,
+				EB5C650A2C93FB34001FD764 /* Frameworks */,
+				EB5C650B2C93FB34001FD764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB5C650F2C93FB34001FD764 /* PBXTargetDependency */,
+			);
+			name = "Taiwan-Pork-MapUITests";
+			productName = "Taiwan-Pork-MapUITests";
+			productReference = EB5C650D2C93FB34001FD764 /* Taiwan-Pork-MapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB5C64EB2C93FB33001FD764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EB5C64F22C93FB33001FD764 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EB5C65022C93FB34001FD764 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EB5C64F22C93FB33001FD764;
+					};
+					EB5C650C2C93FB34001FD764 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EB5C64F22C93FB33001FD764;
+					};
+				};
+			};
+			buildConfigurationList = EB5C64EE2C93FB33001FD764 /* Build configuration list for PBXProject "Taiwan-Pork-Map" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB5C64EA2C93FB33001FD764;
+			productRefGroup = EB5C64F42C93FB33001FD764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB5C64F22C93FB33001FD764 /* Taiwan-Pork-Map */,
+				EB5C65022C93FB34001FD764 /* Taiwan-Pork-MapTests */,
+				EB5C650C2C93FB34001FD764 /* Taiwan-Pork-MapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB5C64F12C93FB33001FD764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5C64FE2C93FB34001FD764 /* Preview Assets.xcassets in Resources */,
+				EB5C64FB2C93FB34001FD764 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5C65012C93FB34001FD764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5C650B2C93FB34001FD764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB5C64EF2C93FB33001FD764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5C64F92C93FB33001FD764 /* ContentView.swift in Sources */,
+				EB5C64F72C93FB33001FD764 /* Taiwan_Pork_MapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5C64FF2C93FB34001FD764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5C65082C93FB34001FD764 /* Taiwan_Pork_MapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5C65092C93FB34001FD764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5C65122C93FB34001FD764 /* Taiwan_Pork_MapUITests.swift in Sources */,
+				EB5C65142C93FB34001FD764 /* Taiwan_Pork_MapUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB5C65052C93FB34001FD764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB5C64F22C93FB33001FD764 /* Taiwan-Pork-Map */;
+			targetProxy = EB5C65042C93FB34001FD764 /* PBXContainerItemProxy */;
+		};
+		EB5C650F2C93FB34001FD764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB5C64F22C93FB33001FD764 /* Taiwan-Pork-Map */;
+			targetProxy = EB5C650E2C93FB34001FD764 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB5C65152C93FB34001FD764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB5C65162C93FB34001FD764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB5C65182C93FB34001FD764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taiwan-Pork-Map/Preview Content\"";
+				DEVELOPMENT_TEAM = 5862HZ6X6T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daweihao.Taiwan-Pork-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB5C65192C93FB34001FD764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taiwan-Pork-Map/Preview Content\"";
+				DEVELOPMENT_TEAM = 5862HZ6X6T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daweihao.Taiwan-Pork-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB5C651B2C93FB34001FD764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5862HZ6X6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daweihao.Taiwan-Pork-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taiwan-Pork-Map.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Taiwan-Pork-Map";
+			};
+			name = Debug;
+		};
+		EB5C651C2C93FB34001FD764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5862HZ6X6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daweihao.Taiwan-Pork-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taiwan-Pork-Map.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Taiwan-Pork-Map";
+			};
+			name = Release;
+		};
+		EB5C651E2C93FB34001FD764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5862HZ6X6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daweihao.Taiwan-Pork-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taiwan-Pork-Map";
+			};
+			name = Debug;
+		};
+		EB5C651F2C93FB34001FD764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5862HZ6X6T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daweihao.Taiwan-Pork-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taiwan-Pork-Map";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB5C64EE2C93FB33001FD764 /* Build configuration list for PBXProject "Taiwan-Pork-Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5C65152C93FB34001FD764 /* Debug */,
+				EB5C65162C93FB34001FD764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB5C65172C93FB34001FD764 /* Build configuration list for PBXNativeTarget "Taiwan-Pork-Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5C65182C93FB34001FD764 /* Debug */,
+				EB5C65192C93FB34001FD764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB5C651A2C93FB34001FD764 /* Build configuration list for PBXNativeTarget "Taiwan-Pork-MapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5C651B2C93FB34001FD764 /* Debug */,
+				EB5C651C2C93FB34001FD764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB5C651D2C93FB34001FD764 /* Build configuration list for PBXNativeTarget "Taiwan-Pork-MapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5C651E2C93FB34001FD764 /* Debug */,
+				EB5C651F2C93FB34001FD764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB5C64EB2C93FB33001FD764 /* Project object */;
+}
