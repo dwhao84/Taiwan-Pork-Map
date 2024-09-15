@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var isActive: Bool = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            if isActive {
+                LaunchScreenView()
+                    .transition(.opacity)
+            } else {
+                MainTabView()
+                    .transition(.opacity)
+            }
         }
-        .padding()
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                withAnimation {
+                    isActive = false
+                    print("畫面消逝")
+                }
+            }
+        }
     }
 }
 
