@@ -12,16 +12,21 @@ struct MainTabView: View {
         TabView {
             PorkMapView()
                 .tabItem {
-                    Label("Menu", systemImage: "list.dash")
+                    Label("地圖", systemImage: "list.dash")
                         .tag(0)
                 }
             PigHistoryView()
                 .tabItem {
-                    Label("History", systemImage: "books.vertical")
+                    Label("歷史", systemImage: "books.vertical")
                         .tag(1)
                 }
+            SettingView()
+                .tabItem {
+                    Label("設定", systemImage: "gear")
+                }
         }
-        .accentColor(Color.moaGreen)
+        .tableStyle(.automatic)
+        .accentColor(Color.greyGreen)
     }
 }
 
