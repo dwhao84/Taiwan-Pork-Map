@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct LaunchScreenView: View {
+    
+    @State var isAnimating: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.moaGreen
+            Image(uiImage: Images.twPigLogo)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 300, height: 300)
+                .scaleEffect(isAnimating ? 1.5 : 1.0)
+                .onAppear() {
+                    withAnimation(.easeInOut(duration: 2.0).repeatForever(autoreverses: true)) {
+                        isAnimating = true
+                }
+            }
+        }
+        .ignoresSafeArea()
     }
 }
 
