@@ -18,10 +18,14 @@ struct PorkMapView: View {
     private var region: MKCoordinateRegion {
         MKCoordinateRegion(
             center: Coordinate.moaCoordinate,
-            latitudinalMeters: 200, longitudinalMeters: 200)
+            latitudinalMeters: 2500, longitudinalMeters: 2500)
     }
 }
 
 #Preview {
     PorkMapView()
 }
+
+/*
+ https://data.moa.gov.tw/Service/OpenData/TransService.aspx?UnitId=tR9TIFWlvquB&IsTransData=1
+ */
