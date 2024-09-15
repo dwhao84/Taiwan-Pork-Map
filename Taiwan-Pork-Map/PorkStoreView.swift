@@ -26,7 +26,7 @@ struct PorkStoreView: View {
             }
         }
         .task {
-            await viewModel.fetchPigData()
+//            await viewModel.fetchPigData()
         }
     }
 }
