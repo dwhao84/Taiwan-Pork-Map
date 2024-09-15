@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct PorkStoreView: View {
+    
+    @StateObject private var viewModel = TaiwanPigViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List(viewModel.pigData) {
+                PigData in
+                VStack(alignment: .leading) {
+                    
+                    Text(PigData.badgeCode)
+                        .font(.caption)
+                    Text(PigData.addr)
+                        .font(.caption)
+                        .padding()
+                }
+            }
+        }
+        .task {
+            await viewModel.fetchPigData()
+        }
     }
 }
 
