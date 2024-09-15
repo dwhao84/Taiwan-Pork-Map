@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EB188C1F2C976B4E00C3EAA3 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB188C1E2C976B4E00C3EAA3 /* LaunchScreenView.swift */; };
 		EB188C212C9770C300C3EAA3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB188C202C9770C300C3EAA3 /* MainTabView.swift */; };
+		EB188C232C97804F00C3EAA3 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB188C222C97804F00C3EAA3 /* SettingView.swift */; };
 		EB5C64F72C93FB33001FD764 /* Taiwan_Pork_MapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C64F62C93FB33001FD764 /* Taiwan_Pork_MapApp.swift */; };
 		EB5C64F92C93FB33001FD764 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C64F82C93FB33001FD764 /* ContentView.swift */; };
 		EB5C64FB2C93FB34001FD764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5C64FA2C93FB34001FD764 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		EB188C1E2C976B4E00C3EAA3 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		EB188C202C9770C300C3EAA3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		EB188C222C97804F00C3EAA3 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		EB5C64F32C93FB33001FD764 /* Taiwan-Pork-Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taiwan-Pork-Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5C64F62C93FB33001FD764 /* Taiwan_Pork_MapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwan_Pork_MapApp.swift; sourceTree = "<group>"; };
 		EB5C64F82C93FB33001FD764 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				EB188C202C9770C300C3EAA3 /* MainTabView.swift */,
 				EB5C65292C93FEE1001FD764 /* PigHistoryView.swift */,
 				EB5C65262C93FBB3001FD764 /* PorkMapView.swift */,
+				EB188C222C97804F00C3EAA3 /* SettingView.swift */,
 				EB5C652B2C9445DD001FD764 /* PorkStoreView.swift */,
 				EB5C652F2C949A4C001FD764 /* TaiwanPigViewModel.swift */,
 				EB5C652D2C948885001FD764 /* TaiwanPigDataModel.swift */,
@@ -301,6 +304,7 @@
 				EB188C1F2C976B4E00C3EAA3 /* LaunchScreenView.swift in Sources */,
 				EB5C652E2C948885001FD764 /* TaiwanPigDataModel.swift in Sources */,
 				EB5C64F72C93FB33001FD764 /* Taiwan_Pork_MapApp.swift in Sources */,
+				EB188C232C97804F00C3EAA3 /* SettingView.swift in Sources */,
 				EB5C65272C93FBB3001FD764 /* PorkMapView.swift in Sources */,
 				EB5C65302C949A4C001FD764 /* TaiwanPigViewModel.swift in Sources */,
 			);
