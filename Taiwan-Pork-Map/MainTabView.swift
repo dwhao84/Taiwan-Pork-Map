@@ -23,6 +23,7 @@ struct MainTabView: View {
             SettingView()
                 .tabItem {
                     Label("設定", systemImage: "gear")
+                        .tag(2)
                 }
         }
         .tableStyle(.automatic)
