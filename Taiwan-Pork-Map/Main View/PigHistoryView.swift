@@ -20,29 +20,35 @@ struct PigHistoryView: View {
     var body: some View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: true) {
-                
-                VStack(alignment: .leading) {
-                    
-                    TextField("Comment", text: $inputText, prompt: Text("Please input your comment"), axis: .vertical)
-                        .font(.callout)
-                        .padding(EdgeInsets(top: 15, leading: 15, bottom: 15, trailing: 15))
-                        .background(Color(.systemGray6))
-                        .cornerRadius(5)
-                        .frame(height: 250) // Limit the height for better UX
-                        .padding(.horizontal, 16)
-
-                    Text("蘭嶼豬")
+                VStack(alignment: .leading, spacing: 20) {
+                    // 顯示 豬的歷史 標題
+                    Text("豬的歷史")
+                        .font(.largeTitle)
                         .bold()
-                        .font(.title)
-                        .multilineTextAlignment(.leading)
-                        .padding(.horizontal, 10)
+                        .padding(.leading, 20)
+                        .padding(.top, 10)
                     
+                    // 使用 TextEditor 替代 TextField 以支持多行輸入
+                    TextEditor(text: $inputText)
+                        .font(.body)
+                        .padding()
+                        .frame(height: 200)
+                        .cornerRadius(10)
+                        .padding(.horizontal, 20)
+                    
+                    // 顯示蘭嶼豬的標題
+                    Text("蘭嶼豬")
+                        .font(.title2)
+                        .bold()
+                        .padding(.horizontal, 20)
+                    
+                    // 圖片展示
                     Image(uiImage: Images.lanyuPig)
                         .resizable()
-                        .frame(width: 360, height: 200)
-                        .cornerRadius(5)
-                        .padding(16)
-
+                        .scaledToFit()
+                        .frame(width: UIScreen.main.bounds.width - 40, height: 200)
+                        .cornerRadius(10)
+                        .padding(.horizontal, 20)
                 }
                 .navigationTitle("台灣豬歷史 🇹🇼")
                 .navigationBarTitleDisplayMode(.inline)
