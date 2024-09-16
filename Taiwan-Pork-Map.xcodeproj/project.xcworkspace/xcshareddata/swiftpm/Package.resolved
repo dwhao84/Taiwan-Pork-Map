@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftyemail",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MarcosAtMorais/SwiftyEmail.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d822316761803230f4236076b2fcebcc433e9fca"
+      }
+    }
+  ],
+  "version" : 2
+}

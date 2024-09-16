@@ -10,6 +10,7 @@
 		EB188C1F2C976B4E00C3EAA3 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB188C1E2C976B4E00C3EAA3 /* LaunchScreenView.swift */; };
 		EB188C212C9770C300C3EAA3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB188C202C9770C300C3EAA3 /* MainTabView.swift */; };
 		EB188C232C97804F00C3EAA3 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB188C222C97804F00C3EAA3 /* SettingView.swift */; };
+		EB188C262C97B4A500C3EAA3 /* SwiftyEmail in Frameworks */ = {isa = PBXBuildFile; productRef = EB188C252C97B4A500C3EAA3 /* SwiftyEmail */; };
 		EB5C64F72C93FB33001FD764 /* Taiwan_Pork_MapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C64F62C93FB33001FD764 /* Taiwan_Pork_MapApp.swift */; };
 		EB5C64F92C93FB33001FD764 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C64F82C93FB33001FD764 /* ContentView.swift */; };
 		EB5C64FB2C93FB34001FD764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5C64FA2C93FB34001FD764 /* Assets.xcassets */; };
@@ -71,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB188C262C97B4A500C3EAA3 /* SwiftyEmail in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +183,9 @@
 			dependencies = (
 			);
 			name = "Taiwan-Pork-Map";
+			packageProductDependencies = (
+				EB188C252C97B4A500C3EAA3 /* SwiftyEmail */,
+			);
 			productName = "Taiwan-Pork-Map";
 			productReference = EB5C64F32C93FB33001FD764 /* Taiwan-Pork-Map.app */;
 			productType = "com.apple.product-type.application";
@@ -253,6 +258,9 @@
 				Base,
 			);
 			mainGroup = EB5C64EA2C93FB33001FD764;
+			packageReferences = (
+				EB188C242C97B4A500C3EAA3 /* XCRemoteSwiftPackageReference "SwiftyEmail" */,
+			);
 			productRefGroup = EB5C64F42C93FB33001FD764 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -636,6 +644,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB188C242C97B4A500C3EAA3 /* XCRemoteSwiftPackageReference "SwiftyEmail" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MarcosAtMorais/SwiftyEmail.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB188C252C97B4A500C3EAA3 /* SwiftyEmail */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB188C242C97B4A500C3EAA3 /* XCRemoteSwiftPackageReference "SwiftyEmail" */;
+			productName = SwiftyEmail;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB5C64EB2C93FB33001FD764 /* Project object */;
 }
