@@ -8,16 +8,18 @@
 import SwiftUI
 
 struct MainTabView: View {
+    @State private var selectedIndex: Int = 0
+    
     var body: some View {
-        TabView {
+        TabView(selection: $selectedIndex) {
             PorkMapView()
                 .tabItem {
-                    Label("地圖", systemImage: "list.dash")
+                    Label("台灣豬認證地圖", systemImage: "list.dash")
                         .tag(0)
                 }
             PigHistoryView()
                 .tabItem {
-                    Label("歷史", systemImage: "books.vertical")
+                    Label("台灣豬的歷史", systemImage: "books.vertical")
                         .tag(1)
                 }
             SettingView()
