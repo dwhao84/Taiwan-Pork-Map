@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    
     @State var isActive: Bool = true
     
     var body: some View {

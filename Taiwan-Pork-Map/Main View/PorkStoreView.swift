@@ -16,7 +16,6 @@ struct PorkStoreView: View {
             List(viewModel.pigData) {
                 PigData in
                 VStack(alignment: .leading) {
-                    
                     Text(PigData.badgeCode)
                         .font(.caption)
                     Text(PigData.addr)
