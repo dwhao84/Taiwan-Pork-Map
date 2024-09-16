@@ -14,14 +14,34 @@ struct LaunchScreenView: View {
     var body: some View {
         ZStack {
             Color.moaGreen
-            Image(uiImage: Images.twPigLogo)
-                .resizable()
-                .scaledToFit()
-                .frame(width: 300, height: 300)
-                .scaleEffect(isAnimating ? 1.5 : 1.0)
-                .onAppear() {
-                    withAnimation(.easeInOut(duration: 2.0).repeatForever(autoreverses: true)) {
-                        isAnimating = true
+            VStack {
+                Image(uiImage: Images.twPigLogo)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 320, height: 320)
+                    .scaleEffect(isAnimating ? 1.0 : 0.7)
+                    .onAppear() {
+                        withAnimation(.easeInOut(duration: 2.0).repeatForever(autoreverses: true)) {
+                            isAnimating = true
+                        }
+                    }
+                    .padding(15)
+                VStack {
+                    Text("台灣豬商家認證資料 來自")
+                        .multilineTextAlignment(.center)
+                        .font(.title3)
+                        .foregroundStyle(.white)
+                        .padding(1)
+                    Text("政府資料開放平臺")
+                        .multilineTextAlignment(.center)
+                        .font(.title2)
+                        .bold()
+                        .foregroundStyle(.white)
+                        .padding(.bottom, 60)
+                    Text("版本 0.1")
+                        .multilineTextAlignment(.center)
+                        .font(.subheadline)
+                        .foregroundStyle(.white)
                 }
             }
         }
