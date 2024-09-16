@@ -58,13 +58,13 @@ struct SettingView: View {
                         Image(systemName: "envelope")
                             .font(.title)
                             .foregroundStyle(.yellow)
-                        Text("免責聲明")
+                        Text("問題回報")
                             .frame(height: 40)
                     }
                 }
             }
             .navigationTitle("設定頁面")
-            .navigationBarTitleDisplayMode(.automatic) // Set this inside the NavigationView
+            .navigationBarTitleDisplayMode(.inline) // Set this inside the NavigationView
         }
     }
 }
