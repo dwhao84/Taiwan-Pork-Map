@@ -32,7 +32,11 @@ struct SettingView: View {
                         Text("農業部相關資訊")
                             .frame(height: 40)
                             .foregroundColor(.primary)
+                            .onTapGesture {
+                                print("農業部相關資訊")
+                            }
                     }
+                    .contentShape(Rectangle())
                 }
                 
                 Section(header: Text("App相關資訊").font(.subheadline)) { // Custom spacer as section header
@@ -42,7 +46,11 @@ struct SettingView: View {
                             .foregroundStyle(.red)
                         Text("免責聲明")
                             .frame(height: 40)
+                            .onTapGesture {
+                                print("免責聲明")
+                            }
                     }
+                    .contentShape(Rectangle())
                     
                     HStack {
                         Image(systemName: "iphone.sizes")
@@ -50,6 +58,9 @@ struct SettingView: View {
                             .foregroundStyle(.cyan)
                         Text("Option 2")
                             .frame(height: 40)
+                            .onTapGesture {
+                                print("Option 2")
+                            }
                     }
                 }
                 
@@ -60,6 +71,9 @@ struct SettingView: View {
                             .foregroundStyle(.yellow)
                         Text("問題回報")
                             .frame(height: 40)
+                            .onTapGesture {
+                                print("問題回報")
+                            }
                     }
                 }
             }
