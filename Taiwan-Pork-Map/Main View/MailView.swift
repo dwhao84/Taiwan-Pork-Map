@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct MailView: View {
+    @State private var showingMail = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button("Open Mail") {
+                self.showingMail.toggle()
+            }
+        }
+        .sheet(isPresented: $showingMail) {
+            MailComposeViewController(toRecipients: ["test@gmail.com"], mailBody: "Here is mail body") {
+                // Did finish action
+            }
+        }
     }
 }
 
