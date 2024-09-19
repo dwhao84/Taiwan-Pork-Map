@@ -10,6 +10,7 @@ import SwiftUI
 struct LaunchScreenView: View {
     
     @State var isAnimating: Bool = false
+    @State var showText = false
     
     var body: some View {
         ZStack {
@@ -25,7 +26,8 @@ struct LaunchScreenView: View {
                             isAnimating = true
                         }
                     }
-                    .padding(15)
+                    .padding(20)
+                
                 VStack {
                     Text("台灣豬商家認證資料 來自")
                         .multilineTextAlignment(.center)
@@ -37,7 +39,12 @@ struct LaunchScreenView: View {
                         .font(.title2)
                         .bold()
                         .foregroundStyle(.white)
-                        .padding(.bottom, 60)
+                        .opacity(showText ? 1 : 0)
+                        .animation(.easeInOut(duration: 1), value: showText)
+                        .padding()
+                        .onAppear {
+                            showText = true
+                        }
                     Text("版本 0.1")
                         .multilineTextAlignment(.center)
                         .font(.subheadline)
